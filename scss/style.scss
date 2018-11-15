@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "common";
+
+.navbar-reside {
+  color: #333;
+  background: $theme-gray-light;
+  border-color: darken($theme-gray-light, 8%);
+  padding-bottom: 0!important;
+  padding-top: 0!important;
+
+  .navbar-nav {
+
+    .nav-item {
+      background: $theme-gray-light;
+      padding-bottom: .25rem!important;
+      padding-top: .25rem!important;
+
+      &:hover {
+        .nav-link {
+          color: $theme-gray;;
+        }
+      }
+
+      &.focus, &:focus, &.active, &:active {
+        background: $theme-gray;
+        .nav-link {
+          color: white;
+        }
+
+        &:hover {
+          background: darken($theme-gray, 10%);
+          .nav-link {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

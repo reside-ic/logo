@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+@import "_palette";
+@import "_footer";
+
+@include sticky-footer(80px);
+
+.btn-blue {
+  @include button-variant(#ffffff, $theme-blue, darken($theme-blue, 10%))
+}
+
+.btn-grey {
+  @include button-variant(#ffffff, $theme-gray, darken($theme-gray, 10%))
+}

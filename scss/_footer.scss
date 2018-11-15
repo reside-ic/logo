@@ -1,0 +1,50 @@
+/**
+ * the sticky footer mixin
+ **/
+@mixin sticky-footer($footer-height, $container-selector: unquote(".main")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      box-sizing: border-box;
+      height: calc(100% - #{$footer-height});
+    }
+  }
+  footer {
+    height: $footer-height;
+  }
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background: $theme-gray;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+
+  .logo-wrapper {
+    height: 60px;
+    width: 160px;
+    margin: 0 auto;
+
+    .name {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 18px;
+      position: relative;
+      top: 25px;
+    }
+
+    .logo {
+      height: 60px;
+      float: left;
+      display: block;
+    }
+  }
+}

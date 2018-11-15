@@ -1,0 +1,28 @@
+{
+  "name": "reside-style",
+  "version": "1.0.0",
+  "description": "style utilities for reside@ic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reside-ic/logo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reside-ic/logo/issues"
+  },
+  "homepage": "https://github.com/reside-ic/logo#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "lodash": ">=4.17.5",
+    "minimatch": ">=3.0.2"
+  }
+}

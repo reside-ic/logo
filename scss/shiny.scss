@@ -1,0 +1,65 @@
+/* Using a minimal set of Bootstrap4 utils for compatibility with RShiny which uses Bootstrap3 */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins/breakpoints";
+@import "../node_modules/bootstrap/scss/utilities/spacing";
+@import "../node_modules/bootstrap/scss/mixins/gradients";
+@import "../node_modules/bootstrap/scss/mixins/hover";
+@import "../node_modules/bootstrap/scss/mixins/buttons";
+@import "../node_modules/bootstrap/scss/mixins/box-shadow";
+@import "common";
+
+.navbar-inverse {
+  color: #333 !important;
+  background: $theme-gray-light !important;
+  border-color: darken($theme-gray-light, 8%) !important;
+
+  .navbar-nav {
+    li {
+      a {
+        color: #333 !important;
+        background: $theme-gray-light;
+
+        &.focus, &:focus {
+          color: white !important;
+          background: $theme-gray !important;
+        }
+
+        &:hover:not(:focus) {
+          color: $theme-gray !important;
+        }
+      }
+
+      &.active {
+        a:hover:not(:focus) {
+          background: darken($theme-gray, 10%) !important;
+          color: white !important;
+        }
+
+        a, a:focus {
+          color: white !important;
+          background: $theme-gray !important;
+        }
+      }
+    }
+  }
+
+  .navbar-brand, .navbar-brand:hover {
+    color: #333 !important;
+    background: $theme-gray-light;
+  }
+}
+
+.progress-bar {
+  background-color: $theme-blue !important;
+}
+
+.irs-from, .irs-to, .irs-single {
+  color: white !important;
+  background-color: $theme-blue;
+}
+
+.irs-bar-edge, .irs-bar {
+  background-color: $theme-blue;
+  border-color: $theme-blue;
+}
