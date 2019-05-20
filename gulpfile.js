@@ -29,4 +29,4 @@ gulp.task('sass-style', function () {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('styles', ['sass-shiny', 'sass-style'], function () {});
+gulp.task('styles', gulp.parallel('sass-shiny', 'sass-style'));
