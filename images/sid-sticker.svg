@@ -18,7 +18,7 @@
    style="enable-background:new 0 0 735 852;"
    xml:space="preserve"
    sodipodi:docname="sid-sticker.svg"
-   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    inkscape:export-filename="/home/rashton/Downloads/reside-hex.png"
    inkscape:export-xdpi="100.50704"
    inkscape:export-ydpi="100.50704"><metadata
@@ -41,16 +41,16 @@
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-width="1920"
-   inkscape:window-height="1052"
+   inkscape:window-height="1015"
    id="namedview4669"
    showgrid="false"
    inkscape:zoom="0.99061033"
-   inkscape:cx="333.22498"
+   inkscape:cx="163.12782"
    inkscape:cy="460.64308"
-   inkscape:window-x="1920"
+   inkscape:window-x="0"
    inkscape:window-y="0"
    inkscape:window-maximized="1"
-   inkscape:current-layer="layer4" />
+   inkscape:current-layer="g4855" />
 <style
    type="text/css"
    id="style4217">
@@ -490,11 +490,10 @@
          id="line4847"
          style="vector-effect:non-scaling-stroke;stroke:#ce4910;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3" /></g><g
        id="g4851" /><path
-       d="m 6,350 q 3.413,0 17.067,0 c 13.653,0 16.213,-70 25.6,-70 9.386,0 14.506,70 25.6,70 11.093,0 -4.267,0 8.533,0 12.8,0 15.36,-30 25.6,-30 10.24,0 12.8,30 25.6,30"
-       stroke-miterlimit="3"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:non-scaling-stroke;fill:#5699fb;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 48.667969,274 c -2.450968,0 -4.553769,1.23019 -5.826172,2.44336 -1.272404,1.21317 -2.047864,2.47629 -2.734375,3.79687 -1.373022,2.64118 -2.332083,5.64927 -3.273438,9.13282 -1.882708,6.96709 -3.50155,15.75078 -5.25,24.44336 -1.748449,8.69257 -3.644323,17.29841 -5.738281,23.25586 -1.046979,2.97872 -2.189005,5.28465 -2.992187,6.38671 -0.317866,0.43615 -0.375599,0.48784 -0.408204,0.54102 H 6 0 v 12 h 6 17.066406 c 4.270164,0 7.49762,-2.74855 9.484375,-5.47461 1.986756,-2.72606 3.357542,-5.88888 4.617188,-9.47266 2.519292,-7.16755 4.41009,-16.06171 6.18164,-24.86914 1.771551,-8.80742 3.406272,-17.52373 5.070313,-23.68164 0.142544,-0.52749 0.256234,-0.6644 0.40039,-1.15234 0.181007,0.5484 0.319617,0.7165 0.5,1.31641 1.850217,6.15332 3.721495,14.8464 5.646485,23.61914 1.924989,8.77273 3.897873,17.62089 6.248047,24.67382 1.175086,3.52647 2.395497,6.59662 4.091797,9.25782 C 67.00294,352.87799 69.72597,356 74.267578,356 h 8.533203 c 5.54375,0 9.89118,-3.41789 12.685547,-6.99023 2.794367,-3.57235 4.716152,-7.64764 6.505862,-11.46094 1.78971,-3.81331 3.44854,-7.39043 4.87695,-9.52735 1.42841,-2.13692 1.90094,-2.02148 1.53125,-2.02148 -0.36969,0 0.10284,-0.11544 1.53125,2.02148 1.42841,2.13692 3.08724,5.71404 4.87695,9.52735 1.78971,3.8133 3.7115,7.88859 6.50586,11.46094 C 124.10882,352.58211 128.45625,356 134,356 h 6 v -12 h -6 c -0.85625,0 -1.62874,-0.33211 -3.23438,-2.38477 -1.60563,-2.05265 -3.36346,-5.47736 -5.09374,-9.16406 -1.73029,-3.68669 -3.43209,-7.60957 -5.76368,-11.09765 C 117.57662,317.86544 113.89008,314 108.40039,314 c -5.48969,0 -9.176224,3.86544 -11.507812,7.35352 -2.331588,3.48808 -4.033383,7.41096 -5.763672,11.09765 -1.730289,3.6867 -3.49007,7.11141 -5.095703,9.16406 C 84.42757,343.66789 83.657031,344 82.800781,344 h -7.222656 c -0.0717,-0.0878 0.0039,0.0127 -0.152344,-0.23242 -0.743826,-1.16693 -1.814508,-3.56553 -2.826172,-6.60156 -2.023326,-6.07207 -3.997098,-14.72391 -5.912109,-23.45118 -1.915011,-8.72726 -3.778716,-17.53418 -5.875,-24.50586 -1.048142,-3.48583 -2.108596,-6.4925 -3.556641,-9.10742 C 56.531837,278.7941 55.724206,277.55291 54.447266,276.375 53.170325,275.19709 51.119073,274 48.667969,274 Z"
        id="path4853"
-       inkscape:connector-curvature="0"
-       style="vector-effect:non-scaling-stroke;fill:none;stroke:#5699fb;stroke-width:12;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3" /></g></g><g
+       inkscape:connector-curvature="0" /></g></g><g
    inkscape:groupmode="layer"
    id="layer4"
    inkscape:label="text"><text
@@ -508,6 +507,7 @@
      x="189.47734"
      y="663"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:100px;line-height:1.25;font-family:'Nexa Bold';-inkscape-font-specification:'Nexa Bold, '">RESIDE</tspan></text>
+
 
 
 
@@ -527,6 +527,7 @@
      x="435.79169"
      y="-130.69165"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.66666603px;font-family:'Nexa Bold';-inkscape-font-specification:'Nexa Bold, '">github.com/reside-ic</tspan></text>
+
 
 
 </g></svg>
